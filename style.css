@@ -1,0 +1,141 @@
+*{
+font-family: "Roboto", sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: url("/assets/Queda\ de\ Cifão.gif") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.money-exchange {
+    width: 380px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+main{
+    width: 375px;
+    background: white;
+    border-radius: 20px;
+    margin: 8px auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label{
+    color: #777777;
+    font-size: 400;
+    font-size: 14px;
+}
+
+select{
+    background: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+    border-color: #772FD3;
+}
+
+input{
+    background: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    border-color: #772FD3;
+}
+
+button{
+    background: #772FD3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow{
+    margin: 15px 0;
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency{
+    color:#777777;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency-img, .currency-img-to-convert{
+    Width: 44px;
+    Height: 44px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+ }
+@media screen and (max-width:420px) {
+
+.money-exchange{
+    width: 130px;
+    height: 130px;
+}
+
+}
+
+main{
+
+    width: 375px;
+}
+
+body{
+    overflow: auto;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moeadas</title>
+</head>
+
+<body>
+      <img class="money-exchange" src="./assets/Icone troca de dinheiro.gif" alt="Icone troca de dinheiro">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select class="currency-select-to-convert">
+                <option value="BRL">R$ Real Brasileiro</option>
+                <option value="USD">US$ Dólar americano</option>
+                <option value="BTC">₿ Bitcoin</option>
+                <option value="GBP">£ libra</option>
+                <option value="EUR">€ Euro</option>
+                <option value="ARS">$ Peso Argentino</option>
+                <option value="CHF">$ Franco Suiço</option>
+                <option value="JPY">¥ Iene</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="Dolar">US$ Dólar americano</option>
+                <option value="Real">R$ Real Brasileiro </option>
+                <option value="Bitcoin">₿ Bitcoin</option>
+                <option value="Libra">£ Libra</option>
+                <option value="Euro">€ Euro</option>
+                <option value="Peso">$ Peso Argentino</option>
+                <option value="Franco">$ Franco Suiço</option>
+                <option value="Iene">¥ Iene</option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input-currency" type="number" placeholder="Digite o valor aqui">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img class="currency-img-to-convert" src="./assets/Real1.jpg" alt="logo-moeda-a-converter">
+                <p class="currency">R$ Real</p>
+                <p class="currency-value-to-convert">R$ 0.0</p>
+            </div>
+
+            <img class="arrow" src="./assets/Arrow.png" alt="seta-para-baixo">
+
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/Dollar1.jpg" alt="logo-moeda-covertida">
+                <p class="currency" id="currency-name">US$ Dolar americano</p>
+                <p class="currency-value">US$ 0.0</p>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+<script src="/script.js"></script>
+</html>
