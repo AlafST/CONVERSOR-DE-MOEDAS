@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body , html {
+body {
     background: url(/assets/Cifrão.gif) no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
@@ -139,6 +139,6 @@ main {
     width: 375px;
 }
 
-body , html {
+body {
     overflow: auto;
 }
