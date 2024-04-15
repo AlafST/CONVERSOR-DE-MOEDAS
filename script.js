@@ -861,7 +861,7 @@ function changeCurrency() {
     
     if (currencySelect.value == "Franco") {
         currencyName.innerHTML = "$ Franco Suiço"
-        currencyImage.src = "assets/Franco suiço1.jpg"
+        currencyImage.src = "assets/Franco Suiço1.jpg"
     }
     
     if (currencySelect.value == "Iene") {
@@ -903,7 +903,7 @@ function changeCurrency() {
     
     if (currencySelectToConvert.value == "CHF") {
         currencyNameToConverter.innerHTML = "$ Franco Suiço"
-        currencyImageToConverter.src = "assets/Franco suiço1.jpg"
+        currencyImageToConverter.src = "assets/Franco Suiço1.jpg"
     }
 
     if (currencySelectToConvert.value == "JPY") {
