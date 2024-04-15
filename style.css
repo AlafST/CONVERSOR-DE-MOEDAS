@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("/assets/Cifrão.gif") no-repeat center center fixed;
+    background: ("/assets/Cifrão.gif") no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
