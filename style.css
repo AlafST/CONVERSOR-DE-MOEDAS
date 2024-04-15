@@ -146,3 +146,11 @@ main {
 body {
     overflow: auto;
 }
+
+@media screen and (max-width: 360px) {
+
+main {
+    width:333px ;
+}
+
+} 
