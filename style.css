@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(/assets/Cifrão.gif) no-repeat center center fixed;
+    background-image: url(assets/Cifrão.gif) no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -128,8 +128,8 @@ input[type=number]::-webkit-outer-spin-button {
 @media screen and (max-width:420px) {
 
     .money-exchange {
-        width: 130px;
-        height: 130px;
+        width: 200px;
+        height: 120px;
     }
 
 }
