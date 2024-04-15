@@ -6,10 +6,14 @@
 }
 
 body {
-    background-image: url(assets/Cifrão.gif) no-repeat center center fixed;
+    background-image: url(assets/Cifrão.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
 }
+
 
 .money-exchange {
     width: 380px;
