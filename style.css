@@ -16,15 +16,17 @@ body {
 
 
 .money-exchange {
-    width: 380px;
-    height: 200px;
+    width: 266px;
+    height: 156px;
     display: block;
     margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 47px;
 }
 
 main {
-    width: 375px;
-    background: white;
+    background: #fef8e2;
     border-radius: 20px;
     margin: 8px auto 40px;
     padding: 44px 24px 23px;
@@ -48,7 +50,7 @@ select {
     font-size: 16px;
     color: #555555;
     cursor: pointer;
-    border-color: #772FD3;
+    border-color: #9f904e;
 }
 
 input {
@@ -62,11 +64,11 @@ input {
     font-weight: 700;
     font-size: 16px;
     color: #555555;
-    border-color: #772FD3;
+    border-color: #9f904e;
 }
 
 button {
-    background: #772FD3;
+    background: #9f904e;
     border-radius: 5px;
     width: 100%;
     border: none;
@@ -86,7 +88,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #772FD3;
+    border: 1px solid #d8c687;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;
@@ -96,7 +98,8 @@ section {
 }
 
 .arrow {
-    margin: 15px 0;
+    margin: 0px 0;
+    width: 100px;
 }
 
 .currency-box {
@@ -122,6 +125,7 @@ section {
 .currency-img-to-convert {
     Width: 44px;
     Height: 44px;
+    border-radius: 50%;
 }
 
 input[type=number]::-webkit-inner-spin-button,
