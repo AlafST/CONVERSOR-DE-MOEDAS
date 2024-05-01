@@ -16,20 +16,20 @@ body {
 
 
 .money-exchange {
-    width: 266px;
-    height: 156px;
+    width: 253px;
+    height: 133px;
     display: block;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
-    margin-top: 47px;
+    margin-top: 15px;
 }
 
 main {
     background: #fef8e2;
     border-radius: 20px;
-    margin: 8px auto 40px;
-    padding: 44px 24px 23px;
+    margin: 8px auto 0px;
+    padding: 19px 24px 23px;
 }
 
 label {
